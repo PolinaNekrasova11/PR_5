@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PR_5</string>
+    <string name="fio">Введите ФИО:</string>
+    <string name="dalee">Далее</string>
+    <string name="mail">Введите email:</string>
+    <string name="dostavka">Детали доставки</string>
+    <string name="client">Покупатель:</string>
+    <string name="number">Введите номер телефона:</string>
+    <string name="city">Город, улица, дом, корпус, строение:</string>
+    <string name="kv">Квартира:</string>
+    <string name="pod">Подъезд:</string>
+    <string name="et">Этаж:</string>
+    <string name="fio_2">ФИО Покупателя:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

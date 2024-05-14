@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+    <TextView
+        android:id="@+id/fragment_first_text_view1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dostavka"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/fragment_first_text_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/client"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/fragment_first_text_view3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/purple" />
+
+    <EditText
+        android:id="@+id/fragment_first_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/city"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/fragment_first_edit_text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/kv"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/fragment_first_edit_text3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/pod"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/fragment_first_edit_text4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/et"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/fragment_first_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dalee" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        android:src="@drawable/brown"/>
+
+</LinearLayout>
